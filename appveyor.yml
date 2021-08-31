@@ -9,7 +9,7 @@ environment:
     secure: mqbXr4+cn3l9YNyKhOezbA==
   matrix:
     - PRODUCT: ios
-      APPVEYOR_BUILD_WORKER_IMAGE: macOS-mojave
+      APPVEYOR_BUILD_WORKER_IMAGE: macOS-bigsur
       TMS_USER: israelhikingmap@gmail.com
       TMS_APPLE_APPLICATION_SPECIFIC_PASSWORD:
         secure: oSccSp70X/744XBpfRV4UVJZKxN1jMYHxn3OHFsTSVE=
