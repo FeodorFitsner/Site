@@ -62,7 +62,7 @@ for:
         - PRODUCT: ios
       fast_finish: true
     install:
-      - sh: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+      #- sh: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
       - sh: nvm install 14.17
     build_script: 
     - pwsh: >-
